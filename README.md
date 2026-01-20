@@ -70,3 +70,42 @@ Perfect for:
 ```bash
 git clone https://github.com/YOUR-USERNAME/Face-Detection-OpenCV.git
 cd Face-Detection-OpenCV
+
+pip install opencv-python
+
+Run the project:
+python face_detection.py
+Press Q to exit the application.
+
+📁 Project Structure
+Face-Detection-OpenCV/
+│
+├── face_detection.py
+├── README.md
+└── requirements.txt
+🎯 Learning Outcomes
+Understanding Haar Cascade classifiers
+
+Real-time video frame processing
+Face detection fundamentals
+OpenCV drawing & annotation techniques
+Webcam handling using Python
+
+🚀 Future Enhancements
+Face recognition with name labels
+
+Eye and smile detection
+
+FPS optimization
+
+Saving detected faces
+
+GUI integration
+
+👨‍💻 Author
+Yash Brahmankar
+B.Tech Student | Python Developer | ML & Computer Vision Enthusiast
+
+📜 License
+This project is licensed under the MIT License — free to use, modify, and share.
+
