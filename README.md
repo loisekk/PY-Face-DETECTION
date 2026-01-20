@@ -1,51 +1,61 @@
-🧠 Face Detection using OpenCV (Python)
-Real-time face detection using Haar Cascade Classifier
+# 👁️ Real-Time Face Detection using OpenCV
 
-Python · OpenCV · Computer Vision
+<p align="center">
+  Detect human faces in real time using Python and OpenCV
+</p>
 
-🔥 Tagline  
-**“Detect faces in real time using classical Computer Vision techniques.” 👁️📷**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" alt="Python"/>
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-red?style=for-the-badge&logo=opencv" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/Model-Haar%20Cascade-orange?style=for-the-badge" alt="Haar Cascade"/>
+  <img src="https://img.shields.io/badge/Author-Yash%20Brahmankar-green?style=for-the-badge" alt="Author"/>
+</p>
+
+---
+
+## 🔥 Tagline
+**"Detect faces instantly using classical Computer Vision techniques."** 👁️📷
 
 ---
 
 ## 📝 Project Description
 
-This mini project implements **real-time face detection** using **OpenCV** and a **Haar Cascade Classifier**.  
-The application captures live video from the webcam, detects human faces, and highlights them with bounding boxes along with a label.
+This is a **real-time face detection project** built using **Python and OpenCV**.  
+The system uses a **Haar Cascade Classifier** to detect human faces from live webcam input and highlights them with bounding boxes and labels.
 
-It demonstrates the fundamentals of **computer vision**, **image processing**, and **real-time video handling** using Python.
+The project demonstrates the core concepts of **Computer Vision**, **image processing**, and **real-time video analysis**.
 
-Ideal for:
-- Beginners in Computer Vision
-- Mini projects & hackathons
-- Python & OpenCV practice
-- Portfolio demonstrations
+Perfect for:
+- Mini projects  
+- Hackathons  
+- Computer Vision beginners  
+- Python portfolios  
 
 ---
 
 ## ✨ Key Features
 
-- 📷 Real-time webcam face detection
-- 🧠 Uses pre-trained Haar Cascade model
-- 🔲 Draws bounding boxes around detected faces
-- 🏷️ Displays “Face Detected” label
-- ⏱️ Fast and lightweight processing
-- ❌ Quit safely using keyboard input
+- 📷 Real-time face detection via webcam
+- 🧠 Pre-trained Haar Cascade model
+- 🔲 Bounding box visualization for detected faces
+- 🏷️ On-screen face detection label
+- ⚡ Fast and lightweight execution
+- ⌨️ Keyboard-controlled exit
 
 ---
 
 ## ⚙️ How It Works
 
-1. Accesses the webcam using OpenCV  
-2. Converts each frame to grayscale  
-3. Applies Haar Cascade face detection  
-4. Detects face coordinates  
-5. Draws rectangles and labels on detected faces  
-6. Displays output in real time  
+- Captures live video frames from the webcam
+- Converts frames to grayscale
+- Applies Haar Cascade face detection
+- Identifies face coordinates
+- Draws rectangles and labels on detected faces
+- Displays output in real time
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
 - **Python 3.x**
 - **OpenCV (cv2)**
@@ -54,11 +64,9 @@ Ideal for:
 
 ---
 
-## ▶️ How to Run Locally
+## ⚡ How to Run Locally
 
-### 1️⃣ Clone the repository
+1. Clone the repository:
 ```bash
 git clone https://github.com/YOUR-USERNAME/Face-Detection-OpenCV.git
 cd Face-Detection-OpenCV
-
-
